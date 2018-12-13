@@ -1,16 +1,15 @@
 # javaUtils
 
---------
---------
-
-
 #usage
+---
+
+
 ```xml
-<dependency>
-    <groupId>com.0opslab</groupId>
-    <artifactId>0opslab-utils</artifactId>
-    <version>1.0.0</version>
-</dependency>
+	<dependency>
+  	  <groupId>com.0opslab</groupId>
+    	<artifactId>0opslab-utils</artifactId>
+    	<version>1.0.0</version>
+	</dependency>
 
 <!--1.0.2-->
 <dependency>
@@ -42,7 +41,7 @@
 ## config
 如果需要修改默认配置可以通过在classpath下添加0opslab.properties文件来进行一些配置
 
-```java
+
 #主机特征四位的十六进制特征码
 HOST_FEATURE=0001
 DATETIME_FORMAT=yyyy-MM-dd HH:mm:ss
@@ -65,15 +64,16 @@ FTPTest.remoteDir=./test
 FTPTest.localDir=c:/download
 FTPTest.Encoding=gbk
 FTPTest.passiveMode=true
-```
+
 
 
 
 #API
 ---
-```java
+
 #CharsetUtil字符串相关的工具类
 ##常量字段
+
     static String	GBK             中文超大字符集
     static String	ISO_8859_1      ISO 拉丁字母表 No.1，也叫作 ISO-LATIN-1
     static String	US_ASCII        7位ASCII字符，也叫作ISO646-US、Unicode字符集的基本拉丁块
